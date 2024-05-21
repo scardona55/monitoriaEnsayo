@@ -1,0 +1,25 @@
+{
+    "app": {
+      "name": "MiAplicacion",
+      "version": "1.0.0",
+      "description": "Esta es una aplicación de ejemplo"
+    },
+    "settings": {
+      "port": 3000,
+      "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "usuario",
+        "password": "contraseña",
+        "name": "mibase"
+      }
+    },
+    "features": {
+      "authentication": true,
+      "logging": {
+        "level": "info",
+        "file": "logs/app.log"
+      }
+    }
+  }
+  
